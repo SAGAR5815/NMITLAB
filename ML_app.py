@@ -22,7 +22,7 @@ def predict(Buying, Maint, Doors, Persons, Lug_boot, Safety):
     safety == 2
   elif Safety == 'low':
     safety = 3
-  df =pd.DataFrame([Buying, Maint, Doors, Persons, Lug_boot, Safety]), columns=['Buying','Maint','Doors','Persons','Lug_boot','Safty'])
+  df =pd.DataFrame(([Buying, Maint, Doors, Persons, Lug_boot, Safety]), columns=['Buying','Maint','Doors','Persons','Lug_boot','Safty']))
   prediction =model.predict([Buying, Maint, Doors, Persons, Lug_boot, Safety])
   return prediction
 
