@@ -28,7 +28,7 @@ prediction =model.predict([Buying, Maint, Doors, Persons, Lug_boot, Safety])
 return prediction
 
 st.title('car Evalution Classification')
-st.image("""https://images.pexels.com/photos/14823597/pexels-photo-14823597.jpeg""")
+st.image(https://th-i.thgim.com/public/sci-tech/technology/gadgets/m3di17/article66918850.ece/alternates/FREE_1200/IMG-5804.jpg)
 st.header('Enter the Information of the Car:')
 
  st.text("vhigh = 1 high = 2 med = 3 low = 4")
