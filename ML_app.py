@@ -24,7 +24,7 @@ def predict(Buying, Maint,  Doors, Persons, Lug_boot, Safety):
     return prediction
 
 st.title('Car Evaluation Classification')
-st.image("""https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZHd78vxHG1a0I0CFdfNfTiLYqbFzGQ9dwNw&s""")
+st.image("""https://th-i.thgim.com/public/sci-tech/technology/gadgets/m3di17/article66918850.ece/alternates/FREE_1200/IMG-5804.jpg""")
 st.header('Enter the Information of the Car:')
 st.text("vhigh = 1 high = 2 med = 3 low = 4")
 Buying = st.number_input('buying:', min_value=1, max_value=4, value=1)
