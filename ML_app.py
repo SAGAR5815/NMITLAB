@@ -22,9 +22,9 @@ def predict(Buying, Maint, Doors, Persons, Lug_boot, Safety):
     safety == 2
   elif Safety == 'low':
     safety = 3
-  df =pd.DataFrame(([Buying, Maint, Doors, Persons, Lug_boot, Safety]), columns=['Buying','Maint','Doors','Persons','Lug_boot','Safty']))
-  prediction =model.predict([Buying, Maint, Doors, Persons, Lug_boot, Safety])
-  return prediction
+ df = pd.DataFrame([[Buying, Maint, Doors, Persons, Lug_boot, safety]], columns=['Buying', 'Maint',  'Doors','Persons', 'Lug_boot', 'Safety'])
+ prediction =model.predict([Buying, Maint, Doors, Persons, Lug_boot, Safety])
+ return prediction
 
 st.title('car Evalution Classification')
 st.image("https://th-i.thgim.com/public/sci-tech/technology/gadgets/m3di17/article66918850.ece/alternates/FREE_1200/IMG-5804.jpg")
